@@ -1,0 +1,12 @@
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\bin\Debug\net8.0\inaApp.Entities.deps.json
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\bin\Debug\net8.0\inaApp.Entities.dll
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\bin\Debug\net8.0\inaApp.Entities.pdb
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.AssemblyInfoInputs.cache
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.AssemblyInfo.cs
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.sourcelink.json
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.dll
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\refint\inaApp.Entities.dll
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\inaApp.Entities.pdb
+C:\Users\azued\source\repos\inaApp\inaApp.Entities\obj\Debug\net8.0\ref\inaApp.Entities.dll
