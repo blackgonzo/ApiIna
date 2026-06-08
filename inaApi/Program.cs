@@ -1,15 +1,15 @@
 using inaApp.Common.interfaces;
-using inaApp.services;
+using inaApp.Services;
 using inaApp.Repository;
+using inaApp.Api.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddApplicationServices( builder.Configuration);
+
 builder.Services.AddControllers();
-builder.Services.AddScoped<IProductoService, ProductoService>();
-builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
-builder.Services.AddScoped<IClienteService, ClienteService>();
-builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

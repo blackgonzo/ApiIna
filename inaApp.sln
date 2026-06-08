@@ -1,17 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37111.16 d17.14
+VisualStudioVersion = 17.14.37111.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Api", "inaApi\inaApp.Api.csproj", "{8B98D451-FEC8-42A4-95F7-96946F962A36}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.services", "inaApp.services\inaApp.services.csproj", "{51F1386D-7807-456D-AA62-AF597B00C79B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Repository", "inaApp.Repository\inaApp.Repository.csproj", "{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Entities", "inaApp.Entities\inaApp.Entities.csproj", "{29A30A4F-C4E3-4BC6-9CB6-00D0C70E34B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Common", "inaApp.Common\inaApp.Common.csproj", "{42949E6A-491F-49F4-B736-8B09C3DCC018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Data", "Data\inaApp.Data.csproj", "{D79E5CC6-8F78-4238-9215-878453D5A96B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inaApp.Services", "inaApp.Services\inaApp.Services.csproj", "{51F1386D-7807-456D-AA62-AF597B00C79B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,6 @@ Global
 		{8B98D451-FEC8-42A4-95F7-96946F962A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B98D451-FEC8-42A4-95F7-96946F962A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B98D451-FEC8-42A4-95F7-96946F962A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51F1386D-7807-456D-AA62-AF597B00C79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51F1386D-7807-456D-AA62-AF597B00C79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51F1386D-7807-456D-AA62-AF597B00C79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51F1386D-7807-456D-AA62-AF597B00C79B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{42949E6A-491F-49F4-B736-8B09C3DCC018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42949E6A-491F-49F4-B736-8B09C3DCC018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42949E6A-491F-49F4-B736-8B09C3DCC018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79E5CC6-8F78-4238-9215-878453D5A96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79E5CC6-8F78-4238-9215-878453D5A96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79E5CC6-8F78-4238-9215-878453D5A96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79E5CC6-8F78-4238-9215-878453D5A96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F1386D-7807-456D-AA62-AF597B00C79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F1386D-7807-456D-AA62-AF597B00C79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F1386D-7807-456D-AA62-AF597B00C79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F1386D-7807-456D-AA62-AF597B00C79B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

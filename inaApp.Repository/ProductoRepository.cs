@@ -6,35 +6,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static inaApp.Repository.ProductoRepository;
+using inaApp.Common.Interfaces;
 
 namespace inaApp.Repository
 {
-    public class ProductoRepository : IProductoRepository
+    public class ProductoRepository : IGenericRepository<Producto>
     {
-
-      
-
-        public async Task<List<Producto>> ObtenerTodosAsync()
+        public Task<Producto> ActualizarAsync(Producto entity)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<Producto> ObtenerPorIdAsync(int id)
+        public Task<Producto> CrearAsync(Producto entity)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<Producto> CrearAsync(Producto producto)
+        public Task<bool> EliminarAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<Producto> ActualizarAsync(Producto producto)
+        public Task<Producto> ObtenerPorIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<bool> EliminarAsync(int id)
+        public Task<List<Producto>> ObtenerTodosAsync()
         {
             throw new NotImplementedException();
         }

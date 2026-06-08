@@ -1,4 +1,5 @@
 ﻿using inaApp.Common.interfaces;
+using inaApp.Common.Interfaces;
 using inaApp.Entities;
 using System;
 using System.Collections.Generic;
@@ -8,42 +9,38 @@ using System.Threading.Tasks;
 
 namespace inaApp.services
 {
-    public class ProductoService : IProductoService
+    public class ProductoService : IGenericService<Producto>
     {
 
-        private readonly IProductoRepository _productoRepo;
-        public ProductoService(IProductoRepository productoRepo)
+        private readonly IGenericRepository<Producto> _productoRepo;
+        public ProductoService(IGenericRepository<Producto> productoRepo)
         {
              _productoRepo = productoRepo;
         }
 
-
-        public Producto ActualizarAsync(Producto producto)
+        public Task<Producto> ActualizarAsync(Producto entity)
         {
             throw new NotImplementedException();
         }
 
-        public Producto CrearAsync(Producto producto)
+        public Task<Producto> CrearAsync(Producto entity)
         {
             throw new NotImplementedException();
         }
 
-        public bool EliminarAsync(int id)
+        public Task<bool> EliminarAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Producto ObtenerPorId(int id)
+        public Task<Producto> ObtenerPorIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Producto> ObtenerTodosAsync()
+        public Task<List<Producto>> ObtenerTodosAsync()
         {
-            _productoRepo.ObtenerTodosAsync();
-
-
-            return null;
+            throw new NotImplementedException();
         }
     }
 }

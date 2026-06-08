@@ -11,10 +11,10 @@ C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.servi
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.services.AssemblyInfo.cs
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.services.csproj.CoreCompileInputs.cache
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.services.sourcelink.json
-C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.s.8F851DC9.Up2Date
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.services.dll
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\refint\inaApp.services.dll
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\inaApp.services.pdb
 C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\ref\inaApp.services.dll
 C:\Users\azued\source\repos\inaApp\inaApp.services\bin\Debug\net8.0\inaApp.Common.dll
 C:\Users\azued\source\repos\inaApp\inaApp.services\bin\Debug\net8.0\inaApp.Common.pdb
+C:\Users\azued\source\repos\inaApp\inaApp.Services\obj\Debug\net8.0\inaApp.S.453D7C7C.Up2Date

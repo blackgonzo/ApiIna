@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\azued\\source\\repos\\inaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|solutionrelative:inaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51F1386D-7807-456D-AA62-AF597B00C79B}|inaApp.services\\inaApp.services.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapp.services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51F1386D-7807-456D-AA62-AF597B00C79B}|inaApp.services\\inaApp.services.csproj|solutionrelative:inaapp.services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D79E5CC6-8F78-4238-9215-878453D5A96B}|Data\\inaApp.Data.csproj|c:\\users\\azued\\source\\repos\\inaapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D79E5CC6-8F78-4238-9215-878453D5A96B}|Data\\inaApp.Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoService.cs",
-              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.services\\ProductoService.cs",
-              "RelativeDocumentMoniker": "inaApp.services\\ProductoService.cs",
-              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.services\\ProductoService.cs*",
-              "RelativeToolTip": "inaApp.services\\ProductoService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T07:01:46.462Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Program.cs",
-              "RelativeDocumentMoniker": "inaApi\\Program.cs",
-              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Program.cs*",
-              "RelativeToolTip": "inaApi\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T07:07:08.711Z",
+              "WhenOpened": "2026-06-07T00:20:57.361Z",
               "EditorCaption": ""
             },
             {

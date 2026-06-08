@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\inaApi",
+    "\\inaApp.Common",
+    "\\inaApp.Entities",
+    "\\inaApp.Repository",
+    "\\inaApp.Service"
+  ],
+  "PreviewInSolutionExplorer": false
+}
