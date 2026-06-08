@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\azued\\source\\repos\\inaApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapi\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|solutionrelative:inaapi\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}|inaApp.Repository\\inaApp.Repository.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapp.repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC9900A3-3055-468D-8C28-2EE8C14B6ECF}|inaApp.Repository\\inaApp.Repository.csproj|solutionrelative:inaapp.repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51F1386D-7807-456D-AA62-AF597B00C79B}|inaApp.Services\\inaApp.Services.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapp.services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51F1386D-7807-456D-AA62-AF597B00C79B}|inaApp.Services\\inaApp.Services.csproj|solutionrelative:inaapp.services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|solutionrelative:inaapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D79E5CC6-8F78-4238-9215-878453D5A96B}|Data\\inaApp.Data.csproj|c:\\users\\azued\\source\\repos\\inaapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79E5CC6-8F78-4238-9215-878453D5A96B}|Data\\inaApp.Data.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|c:\\users\\azued\\source\\repos\\inaapp\\inaapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B98D451-FEC8-42A4-95F7-96946F962A36}|inaApi\\inaApp.Api.csproj|solutionrelative:inaapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "inaApi\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Extensions\\DependencyInjection.cs*",
+              "RelativeToolTip": "inaApi\\Extensions\\DependencyInjection.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T00:20:57.361Z",
+              "WhenOpened": "2026-06-07T21:56:50.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.Repository\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "inaApp.Repository\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.Repository\\ProductoRepository.cs*",
+              "RelativeToolTip": "inaApp.Repository\\ProductoRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:50:46.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "inaApp.services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.services\\ProductoService.cs*",
+              "RelativeToolTip": "inaApp.services\\ProductoService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:48:25.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "inaApi\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Controllers\\ClienteController.cs*",
+              "RelativeToolTip": "inaApi\\Controllers\\ClienteController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:38:57.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "inaApi\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApi\\Controllers\\ProductoController.cs*",
+              "RelativeToolTip": "inaApi\\Controllers\\ProductoController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T21:38:25.905Z",
               "EditorCaption": ""
             },
             {
@@ -40,6 +112,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T00:20:57.361Z",
+              "EditorCaption": ""
             }
           ]
         },

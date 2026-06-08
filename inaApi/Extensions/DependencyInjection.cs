@@ -1,8 +1,10 @@
 ﻿using inaApp.Common.interfaces;
 using inaApp.Common.Interfaces;
+using inaApp.Data;
 using inaApp.Entities;
 using inaApp.Repository;
 using inaApp.services;
+using Microsoft.EntityFrameworkCore;
 
 
 
@@ -14,6 +16,14 @@ namespace inaApp.Api.Extensions
             this IServiceCollection services,
             IConfiguration configuration)
         {
+
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(
+                    configuration.GetConnectionString("DefaultConnection"));
+            });
+
             services.AddScoped<IGenericService<Producto>, ProductoService>();
             services.AddScoped<IGenericRepository<Producto>, ProductoRepository>();
 

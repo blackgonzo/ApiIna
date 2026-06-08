@@ -1,5 +1,5 @@
 using inaApp.Common.interfaces;
-using inaApp.Services;
+using inaApp.services;
 using inaApp.Repository;
 using inaApp.Api.Extensions;
 var builder = WebApplication.CreateBuilder(args);
