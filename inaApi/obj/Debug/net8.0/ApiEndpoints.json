@@ -1,0 +1,281 @@
+[
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Index",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Details",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Create",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Create",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Edit",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Edit",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Delete",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ClienteController",
+    "Method": "Delete",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "IndexAsync",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Create",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "producto",
+        "Type": "inaApp.Entities.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Create",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Edit",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Edit",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Delete",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Delete",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "collection",
+        "Type": "Microsoft.AspNetCore.Http.IFormCollection",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Update",
+    "RelativePath": "api/Producto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "producto",
+        "Type": "inaApp.Entities.Producto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "inaApp.Api.Controllers.ProductoController",
+    "Method": "Details",
+    "RelativePath": "api/Producto/getById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

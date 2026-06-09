@@ -8,12 +8,17 @@ using System.Threading.Tasks;
 
 namespace inaApp.Entities
 {
+
+    [Table(name: "tCliente")]
     public class Cliente
     {
 
+
+
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; }
+        public int Id { get; set; }
 
         [Required]
         [Column("nombre")]

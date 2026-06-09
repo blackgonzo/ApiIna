@@ -18,3 +18,5 @@ C:\Users\azued\source\repos\inaApp\inaApp.services\obj\Debug\net8.0\ref\inaApp.s
 C:\Users\azued\source\repos\inaApp\inaApp.services\bin\Debug\net8.0\inaApp.Common.dll
 C:\Users\azued\source\repos\inaApp\inaApp.services\bin\Debug\net8.0\inaApp.Common.pdb
 C:\Users\azued\source\repos\inaApp\inaApp.Services\obj\Debug\net8.0\inaApp.S.453D7C7C.Up2Date
+C:\Users\azued\source\repos\inaApp\inaApp.Services\bin\Debug\net8.0\inaApp.Data.dll
+C:\Users\azued\source\repos\inaApp\inaApp.Services\bin\Debug\net8.0\inaApp.Data.pdb

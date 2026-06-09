@@ -7,34 +7,107 @@ using System.Text;
 using System.Threading.Tasks;
 using static inaApp.Repository.ProductoRepository;
 using inaApp.Common.Interfaces;
+using inaApp.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace inaApp.Repository
 {
-    public class ProductoRepository : IGenericRepository<Producto>
+    public class ProductoRepository : IProductoRepository
     {
-        public Task<Producto> ActualizarAsync(Producto entity)
+        private ApplicationDbContext _context;
+
+        public ProductoRepository(ApplicationDbContext context)
         {
-            throw new NotImplementedException();
+
+            _context = context;
+        }
+        public async Task<Producto> ActualizarAsync(Producto entity)
+        {
+            try
+            {
+                _context.Producto.Update(entity);
+                await _context.SaveChangesAsync();
+                return entity;
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public Task<Producto> CrearAsync(Producto entity)
+        public async Task<Producto> CrearAsync(Producto entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Producto.Add(entity);
+                _context.SaveChanges();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+        public async Task<bool> EliminarAsync(int id)
+        {
+            try
+            {
+                var producto = await ObtenerPorIdAsync(id);
+               if (producto == null)
+                {
+                    return false;
+                }
+                producto.Estado = false;
+                _context.Producto.Update(producto);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
 
-        public Task<bool> EliminarAsync(int id)
+        public async Task<Producto> ObtenerPorIdAsync(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _context.Producto.Where(x => x.Id == id && x.Estado == true).SingleOrDefaultAsync();
+                ;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
         }
 
-        public Task<Producto> ObtenerPorIdAsync(int id)
+        public async Task<List<Producto>> ObtenerTodosAsync()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _context.Producto.Where(x => x.Estado == true).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
-        public Task<List<Producto>> ObtenerTodosAsync()
+        public async Task<Producto?> ObtenerPorNombreAsync(string nombre)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _context.Producto
+                    .Where(x => x.Nombre == nombre && x.Estado == true)
+                    .SingleOrDefaultAsync();
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

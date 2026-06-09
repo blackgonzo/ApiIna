@@ -25,7 +25,7 @@ namespace inaApp.Api.Extensions
             });
 
             services.AddScoped<IGenericService<Producto>, ProductoService>();
-            services.AddScoped<IGenericRepository<Producto>, ProductoRepository>();
+            services.AddScoped<IProductoRepository, ProductoRepository>();
 
             services.AddScoped<IClienteService, ClienteService>();
             services.AddScoped<IClienteRepository, ClienteRepository>();

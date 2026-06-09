@@ -24,21 +24,59 @@ namespace inaApp.Api.Controllers
 
         // GET: ProductoController
         [HttpGet]
-        public ActionResult Index()
+        public async Task<ActionResult> IndexAsync()
         {
-            return StatusCode(200, "asd");
+
+            var lista = await _productoService.ObtenerTodosAsync();
+
+            return Ok(lista);
         }
 
+
+
         // GET: ProductoController/Details/5
+        [HttpGet("getById/{id}")]
+
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: ProductoController/Create
-        public ActionResult Create()
+
+        //METODO PARA ACTUALIZAR UN PRODUCTO
+
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(int id, [FromBody] Producto producto)
         {
-            return View();
+            try
+            {
+                producto.Id = id;
+                var result = await _productoService.ActualizarAsync(producto);
+                return Ok(new { data = result, message = "ACTUALIZADO" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        // GET: ProductoController/Create
+
+        [HttpPost]
+        public ActionResult Create([FromBody] Producto producto)
+        {
+
+            try
+            {
+                var result = _productoService.CrearAsync(producto);
+                return StatusCode(200, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+
+            }
         }
 
         // POST: ProductoController/Create

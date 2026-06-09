@@ -348,6 +348,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\inaApp.Data.csproj": {
+                "projectPath": "C:\\Users\\azued\\source\\repos\\inaApp\\Data\\inaApp.Data.csproj"
+              },
               "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.Common\\inaApp.Common.csproj": {
                 "projectPath": "C:\\Users\\azued\\source\\repos\\inaApp\\inaApp.Common\\inaApp.Common.csproj"
               },

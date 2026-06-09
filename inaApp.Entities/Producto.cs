@@ -10,17 +10,20 @@ namespace inaApp.Entities
 {
 
     //niveles acceso
-//public: cualquier clase puede acceder a esta clase
-//private: solo las clases dentro del mismo archivo pueden acceder a esta clase
-//internal: solo las clases dentro del mismo proyecto pueden acceder a esta clase
-//protected: solo las clases dentro del mismo proyecto y las clases que heredan de
+    //public: cualquier clase puede acceder a esta clase
+    //private: solo las clases dentro del mismo archivo pueden acceder a esta clase
+    //internal: solo las clases dentro del mismo proyecto pueden acceder a esta clase
+    //protected: solo las clases dentro del mismo proyecto y las clases que heredan de
+
+
+    [Table(name:"tbProduct")]
     public class Producto
     {
         //propiedades
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; }
+        public int Id { get; set; }
 
         [Required]
         [StringLength(100)]
