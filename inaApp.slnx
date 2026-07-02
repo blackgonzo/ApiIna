@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Data/inaApp.Data.csproj" Id="d5cb66a4-7390-4187-aac3-b291f5731d76" />
+  <Project Path="inaApi/inaApp.Api.csproj" />
+  <Project Path="inaApp.Common/inaApp.Common.csproj" />
+  <Project Path="inaApp.DTOs/inaApp.DTOs.csproj" Id="4d0751bb-7ac7-46f8-b616-50dd0df7259d" />
+  <Project Path="inaApp.Entites/inaApp.Entites.csproj" />
+  <Project Path="inaApp.Repository/inaApp.Repository.csproj" />
+  <Project Path="inaApp.Services/inaApp.Services.csproj" />
+  <Project Path="ProyectoINAApp/ProyectoINAApp.csproj" Id="ada51537-aac7-4c05-a4b1-83809cfb6ece" />
+</Solution>
