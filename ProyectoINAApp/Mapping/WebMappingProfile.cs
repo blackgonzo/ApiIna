@@ -12,6 +12,7 @@ namespace ProyectoINAApp.Mapping
         {
             //DTO A VIEWMODEL - Producto
             CreateMap<ProductoResponseDTO, ProductoIndexViewModel>();
+            CreateMap<ProductoResponseDTO, ProductoEditViewModel>();
             CreateMap<ProductoCreateDTO, ProductoCreateViewModel>();
 
             //DTO A VIEWMODEL - Categoria
