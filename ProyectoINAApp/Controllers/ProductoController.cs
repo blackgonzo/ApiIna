@@ -81,6 +81,7 @@ namespace ProyectoINAApp.Controllers
             return View(productoVM);
         }
 
+        [HttpGet]
         public async Task<ActionResult> Create()
         {
             var vm = new ProductoCreateViewModel();
@@ -140,6 +141,7 @@ namespace ProyectoINAApp.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<ActionResult> Edit(int id)
         {
             var response = await _productoService.ObtenerPorIdAsync(id);
@@ -207,6 +209,7 @@ namespace ProyectoINAApp.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<ActionResult> Delete(int id)
         {
             var response = await _productoService.ObtenerPorIdAsync(id);

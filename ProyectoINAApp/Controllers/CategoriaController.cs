@@ -53,6 +53,7 @@ namespace ProyectoINAApp.Controllers
             return View(categoriaVM);
         }
 
+        [HttpGet]
         public ActionResult Create()
         {
             return View();
@@ -98,6 +99,7 @@ namespace ProyectoINAApp.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<ActionResult> Edit(int id)
         {
             var response = await _categoriaService.ObtenerPorIdAsync(id);
@@ -155,6 +157,7 @@ namespace ProyectoINAApp.Controllers
             }
         }
 
+        [HttpGet]
         public async Task<ActionResult> Delete(int id)
         {
             var response = await _categoriaService.ObtenerPorIdAsync(id);

@@ -37,6 +37,7 @@ namespace inaApp.Services
 
             //Validar si el nombre ya esta registrado (excluyendo el registro actual)
             var categoriaActual = await _repository.ObtenerPorIdAsync(id);
+            if (categoriaActual is null) throw new NotFoundException($"La categoria con id {id} no existe.");
             if (categoriaActual.Nombre != entity.Nombre && await _repository.validarNombreRepetido(entity.Nombre))
                 throw new DuplicateNameException($"El nombre {entity.Nombre} ya se encuentra agregado como categoria.");
 
@@ -109,10 +110,11 @@ namespace inaApp.Services
             if (id <= 0) throw new BusinessValidationException("El id de la categoria no es valida.");
 
             //Traemos la categoria
-            Categoria categoria=await _repository.ObtenerPorIdAsync(id);
+            Categoria categoria = await _repository.ObtenerPorIdAsync(id);
+            if (categoria is null) throw new NotFoundException($"La categoria con id {id} no existe.");
 
             //Mapeamos la categoria
-            CategoriaResponseDTO reponse= _mapper.Map<CategoriaResponseDTO>(categoria);
+            CategoriaResponseDTO reponse = _mapper.Map<CategoriaResponseDTO>(categoria);
 
             //Retornamos el api response
             return new ApiResponse<CategoriaResponseDTO>
