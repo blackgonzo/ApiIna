@@ -84,17 +84,18 @@ namespace inaApp.Repository
         {
             try
             {
-                var producto = await ObtenerPorIdAsync(id);
-                if (producto==null)
+                var result = await _context.Producto
+                    .Where(p => p.Id == id && p.Estado == true)
+                    .ExecuteUpdateAsync(setters => setters
+                        .SetProperty(p => p.Estado, false)
+                    ) > 0;
+
+                if (!result)
                 {
                     return false;
                 }
-                producto.Estado = false;
-                _context.Producto.Update(producto);
-                await _context.SaveChangesAsync();
+
                 return true;
-
-
             }
             catch (Exception)
             {
