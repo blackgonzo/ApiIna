@@ -98,6 +98,10 @@ namespace ProyectoINAApp.Controllers
                 if (!ModelState.IsValid)
                 {
                     productoVM.Categorias = await CargarCategoriasAsync();
+                    ViewBag.ModelStateErrors = ModelState.Values
+                        .SelectMany(v => v.Errors)
+                        .Select(e => e.ErrorMessage)
+                        .ToList();
                     return View(productoVM);
                 }
 
