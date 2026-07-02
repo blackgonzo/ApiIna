@@ -38,7 +38,7 @@ namespace inaApp.Repository
 
                 //Actualizamos la entidad
                 await _context.Categoria
-                    .Where(c => c.Estado == true)
+                    .Where(c => c.Id == id && c.Estado == true)
                     .ExecuteUpdateAsync(setters => setters
                     .SetProperty(c=>c.Nombre,entity.Nombre)
                     .SetProperty(c=>c.Descripcion,entity.Descripcion)
