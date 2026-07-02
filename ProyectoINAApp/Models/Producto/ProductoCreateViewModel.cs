@@ -30,6 +30,6 @@ namespace ProyectoINAApp.Models.Producto
         [Range(1, int.MaxValue, ErrorMessage = "Seleccione una categoria valida.")]
         public int CategoriaId { get; set; }
 
-        public List<SelectListItem> Categorias { get; set; }
+        public List<SelectListItem>? Categorias { get; set; }
     }
 }

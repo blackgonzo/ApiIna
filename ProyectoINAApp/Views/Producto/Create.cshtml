@@ -40,16 +40,6 @@
 </form>
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
-    @if (ViewBag.ModelStateErrors is List<string> errors && errors.Any())
-    {
-        <script>
-            console.log('=== ERRORES DE VALIDACION ===');
-            @foreach (var error in errors)
-            {
-                <text>console.log('@error');</text>
-            }
-        </script>
-    }
 }
 
 
