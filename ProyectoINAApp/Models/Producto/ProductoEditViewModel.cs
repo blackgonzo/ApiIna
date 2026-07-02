@@ -16,7 +16,7 @@ namespace ProyectoINAApp.Models.Producto
         [Display(Name = "Precio del Producto")]
         [Required(ErrorMessage = "El precio del producto es obligatorio.")]
         [Range(0.01, 10000.00, ErrorMessage = "El precio debe estar entre 0.01 y 10000.00.")]
-        [DataType(DataType.Currency)]
+        [DisplayFormat(DataFormatString = "{0:N2}", ApplyFormatInEditMode = true)]
         public decimal Precio { get; set; } = 0;
 
         [Display(Name = "Stock del Producto")]
